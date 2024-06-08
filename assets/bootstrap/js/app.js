@@ -1,0 +1,1 @@
+confirm("apakah anda yakin akan keluar?")

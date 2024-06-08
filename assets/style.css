@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+    box-sizing:border-box
+}
+
+body {
+    font-family:Quicksand,sans-serif;
+    margin:0;
+    padding:0
+}
+
+.jumbotron {
+    background-color:#00c8eb;
+    color:#fff;
+    font-size:20px;
+    padding:20px;
+    text-align:center;
+}
+
+nav {
+    background-color:#00a2c6;
+    padding:5px;
+    top:0;
+}
+
+nav a {
+    color:#fff;
+    font-size:18px;
+    font-weight:400;
+    text-decoration:none
+}
+
+nav a:hover {
+    font-weight:700
+}
+
+nav li {
+    display:inline;
+    list-style-type:none;
+    margin-right:20px
+}
+
+main {
+    overflow:auto;
+    padding:20px
+}
+
+h2,h3 {
+    color:#00a2c6;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.card {
+    border-radius:5px;
+    box-shadow:0 4px 8px 0 rgba(1,1,1,.37);
+    margin-top:20px;
+    padding:20px
+}
+
+@media screen and (max-width:1000px) {
+    #content,aside {
+        padding:100px;
+        width:100%
+    }}
+
+footer {
+    background-color:#00a2c6;
+    color:#fff;
+    font-weight:700;
+    padding:20px;
+    text-align:center
+}
+
+.foto {
+    max-height:600px;
+    object-fit:cover;
+    object-position:center;
+    width:600px
+}
+
+.profi {
+    padding-left: 200px;
+    height: 300px;
+}
+
+.kontak {
+    
+    width: 100%;
+    padding: 2px;
+    box-shadow: 0;
+}
+
+form,
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: initial;
+}
+
+.form-group label {
+    display: block;
+    margin: 1px 0.8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    outline: 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    height: 40px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit {
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #00a2c6;
+    color: white;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
